@@ -7,7 +7,7 @@ class DNA {
     let differences = 0;
 
     for (let index in this.sequence) {
-      if (!this.sequence[index] || !sequence[index]) break;
+      if (!sequence[index]) break;
       if (this.sequence[index] !== sequence[index]) differences += 1;
     }
 
